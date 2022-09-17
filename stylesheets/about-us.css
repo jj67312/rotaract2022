@@ -4,7 +4,7 @@
 
 .about-us {
   display: flex;
-  background-color: var(--clr-bg);
+  background-color: var(#fafafa);
   flex-direction: row;
   align-items: center;
   padding: 5% 10%;

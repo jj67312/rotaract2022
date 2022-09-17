@@ -4,9 +4,8 @@
 }
 
 .who-we-are {
-  margin-block-end: 30px;
   padding: 5% 10%;
-  background-color: var(--clr-bg1);
+  background-color: #f4f5f7;
 
   display: flex;
   flex-direction: column;

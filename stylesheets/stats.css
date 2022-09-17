@@ -1,8 +1,11 @@
 :root{
-  --clr-bg1: #f4f5f7;
+  --clr-bg1: #fafafa;
 }
 
 .stats {
   padding: 5% 10%;
-  background-color: var(--clr-bg1);
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
