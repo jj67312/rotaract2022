@@ -1,11 +1,12 @@
 :root {
   --clr-theme-primary: linear-gradient(to right, #31d167, #2cbac8);
+  --clr-bg1: #f4f5f7;
 }
 
 .who-we-are {
-  margin-block: 30px;
-  margin-inline: 10%;
-  /* background-color: yellow; */
+  margin-block-end: 30px;
+  padding: 5% 10%;
+  background-color: var(--clr-bg1);
 
   display: flex;
   flex-direction: column;

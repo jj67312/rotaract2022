@@ -1,8 +1,13 @@
+:root {
+  --clr-bg: #fafafa;
+}
+
 .about-us {
   display: flex;
+  background-color: var(--clr-bg);
   flex-direction: row;
   align-items: center;
-  margin-inline: 15%;
+  padding: 5% 10%;
   margin-block-start: 5vh;
 }
 
