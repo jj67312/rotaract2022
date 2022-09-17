@@ -1,0 +1,30 @@
+.team{
+  padding: 5% 10%;
+  background-color: #f4f5f7;
+}
+
+.team-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.team-card{
+  margin-right: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.team h2{
+  margin-bottom: 5px;
+}
+
+.team p{
+  margin-bottom: 20px;
+}
+
+.team-card img{
+  object-fit: contain;
+  height: 300px;
+  width: 300px;
+}

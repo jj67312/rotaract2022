@@ -4,6 +4,7 @@
 
 .stats {
   padding: 5% 10%;
+  text-align: center;
   background-color: #fafafa;
   display: flex;
   flex-direction: row;
