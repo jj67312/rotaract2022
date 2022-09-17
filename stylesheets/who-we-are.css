@@ -1,0 +1,39 @@
+:root {
+  --clr-theme-primary: linear-gradient(to right, #31d167, #2cbac8);
+}
+
+.who-we-are {
+  margin-block: 30px;
+  margin-inline: 10%;
+  /* background-color: yellow; */
+
+  display: flex;
+  flex-direction: column;
+}
+
+.who-we-are-heading {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.who-we-are-list {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.who-we-are-list-item {
+  /* background-color: orange; */
+  margin-top: 20px;
+  margin-right: 30px;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: left;
+}
+
+.who-we-are-list-item span img {
+  width: 50px;
+  height: 50px;
+}

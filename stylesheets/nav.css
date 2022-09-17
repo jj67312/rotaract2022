@@ -1,0 +1,62 @@
+:root {
+  --clr-theme-primary: linear-gradient(to right, #31d167, #2cbac8);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  border-bottom: 2px solid #f1f1f1;
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;  
+}
+
+/* nav logo */
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-inline-start: 5%;
+}
+
+.nav-logo img {
+  height: 50px;
+}
+
+.nav-logo h3{
+  width:max-content;
+}
+
+.nav-items {
+  margin-inline-end: 5%;
+}
+
+.nav-items ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 80%;
+}
+
+.nav-items ul li {
+  margin-right: 10px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: max-content;
+}
+
+.nav-items ul li:hover {
+  color: white;
+  background-image: var(--clr-theme-primary);
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+/* CHANGE NAV AT WIDTH 763px */
