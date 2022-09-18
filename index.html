@@ -5,6 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
   <title>Rotaract</title>
 
   <!-- Google fonts: -->
@@ -22,190 +28,212 @@
   <link rel="stylesheet" href="./stylesheets/who-we-are.css">
   <link rel="stylesheet" href="./stylesheets/stats.css">
   <link rel="stylesheet" href="./stylesheets/team.css">
-  <link rel="stylesheet" href="./stylesheets/parent-rotary.css">
 </head>
 
 <body>
 
   <!-- NAVIGATION BAR -->
-  <nav>
+  <nav id="navbar1">
     <div class="nav-logo">
-      <img src="./images/logo.png" alt="">
-      <h3>Rotaract Club S.P.I.T</h3>
-    </div>
+        <img src="./images/logo.png" alt="">
+        <h3>Rotaract Club S.P.I.T</h3>
+      </div>
     <div class="nav-items">
-      <ul>
-        <li>About Us</li>
-        <li>The Team</li>
-        <li>Our Events</li>
-        <li>Contact Us</li>
-      </ul>
+    <ul>
+      <li >
+        <a class="nav-link" href="#AboutUs">About Us</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#OurTeam">Our Team</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#OurEvents">Our Events</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#ContactUs">Contact Us</a>
+      </li>
+    </ul>
     </div>
   </nav>
 
   <!-- MAIN CONTENT OF THE WEB PAGE -->
   <main>
+    <div data-bs-spy="scroll" data-bs-target="#navbar1" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+        <h4 id="AboutUs">About US</h4>
+        <div class="about-us">
+            <div class="about-us-text">
+              <h2>About Us</h2>
+              <p>
+                Rotaract club of S.P.I.T. is an institution based rotaract club belonging to Rotaract district 3141. It is sponsored by the Rotary Club of Mumbai Juhu. The club was chartered in the year 2012. We promote the holistic development of every individual who is working for the betterment of the society. We do qualitative projects in order to ensure that we provide maximum service to our society as a whole
+              </p>
+            </div>
+            <div class="about-us-image">
+              <img src="./images/logo.png" alt="">
+            </div>
+        </div>
+        <div class="who-we-are">
 
-    <div class="about-us">
-      <div class="about-us-text">
-        <h2>About Us</h2>
-        <p>
-          Rotaract club of S.P.I.T. is an institution based rotaract club belonging to Rotaract district 3141. It is sponsored by the Rotary Club of Mumbai Juhu. The club was chartered in the year 2012. We promote the holistic development of every individual who is working for the betterment of the society. We do qualitative projects in order to ensure that we provide maximum service to our society as a whole
-        </p>
-      </div>
-      <div class="about-us-image">
-        <img src="./images/logo.png" alt="">
-      </div>
+            <div class="who-we-are-heading">
+              <h2>Who we are?</h2>
+              <p>
+                Together, we see a world where people unite and take action to create lasting change — across the globe, in our communities, and in ourselves.
+              </p>
+            </div>
+      
+            <div class="who-we-are-list">
+      
+              <div class="who-we-are-list-item">
+                <span>
+                  <img src="./images/who-we-are/1.svg" alt="">
+                </span>
+                <h3>People Of Action</h3>
+                <p>
+                  We connect passionate people with diverse perspectives to exchange ideas and above all, take action to change the world.
+                </p>
+              </div>
+      
+              <div class="who-we-are-list-item">
+                <span>
+                  <img src="./images/who-we-are/2.svg" alt="">
+                </span>
+                <h3>Community Builders</h3>
+                <p>
+                  We collaborate with leaders and organisations who want to get to work on projects that have a real, lasting impact on people’s lives.
+                </p>
+              </div>
+      
+              <div class="who-we-are-list-item">
+                <span>
+                  <img src="./images/who-we-are/3.svg" alt="">
+      
+                </span>
+                <h3>Problem Solvers</h3>
+                <p>
+                  Together, we apply our professional experience and personal commitment to tackle our communities’ most persistent problems, finding new, effective ways to enhance health, stability, and prosperity across the globe..
+                </p>
+              </div>
+      
+              <div class="who-we-are-list-item">
+                <span>
+                  <img src="./images/who-we-are/4.svg" alt="">
+                </span>
+                <h3>Opportunity Creators</h3>
+                <p>
+                  We create opportunity for people who want to give it back to the society or looking for investing in our communities today for a better tomorrow
+                </p>
+              </div>
+      
+            </div>
+          </div>
+      
+          <div class="stats">
+            <div class="start-stat">
+              <h2>2012</h2>
+              <h3>Since We Started</h3>
+            </div>
+            <div class="vool-stat">
+              <h2>5000</h2>
+              <h3>Number Of Volunteers</h3>
+            </div>
+        </div>
+
+
+        <!-- THE TEAM -->
+
+        <h4 id="OurTeam"></h4>
+        <div class="team">
+            <h2>Meet Our Team</h2>
+            <p>
+              With the guidance of our parent rotary the new elected team of RC SPIT are on a mission to enable the community to advance world understanding, goodwill, and peace through the improvement of health, the support of education, and the alleviation of poverty.
+            </p>
+            <div class="team-container">
+              <div class="team-card">
+                <img src="./images/team/rathodsir-compressed.jpg" alt="">
+                <h3 class="team-card-name">Dr S S Rathod</h3>
+                <h4 class="team-card-position">Club Mentor</h4>
+              </div>
+      
+              <div class="team-card">
+                <img src="./images/team/Atman_Ainapure.jpeg" alt="">
+                <h3 class="team-card-name">Rtr. Atman Ainapure</h3>
+                <h4 class="team-card-position">President</h4>
+              </div>
+      
+              <div class="team-card">
+                <img src="./images/team/Alisha_Kadam.jpeg" alt="">
+                <h3 class="team-card-name">Rtr. Alisha Kadam</h3>
+                <h4 class="team-card-position">Vice President</h4>
+              </div>
+      
+              <div class="team-card">
+                <img src="./images/team/Yash.jpeg" alt="">
+                <h3 class="team-card-name">Rtr. Yash Jain</h3>
+                <h4 class="team-card-position">IPP</h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Parent Rotary -->
+          <div class="parent-rotary">
+            <h2>Our Parent Rotary</h2>
+            <div class="parent-rotary-container">
+      
+              <div class="parent-rotary-card">
+                <h3>Who are they</h3>
+                <img src="./images/parent-rotary/parent-rotary.png" alt="">
+                <ul>
+                  <li>They belong to the district 3141 and called our parent rotary</li>
+                  <li>Chartered on Dec.22,1999</li>
+                  <li>Over 20 core members</li>
+                  <li>A parent club to more than 10 different clubs</li>
+                  <li>Driven by the goal of uplifitng the community</li>
+                </ul>
+              </div>
+      
+              <div class="parent-rotary-card">
+                <h3>Their Mission</h3>
+                <img src="./images/parent-rotary/parent-rotary.png" alt="">
+                <ul>
+                  <li>Support the member clubs in fulfillin gthe Object of rotary by fostering unity amongest member clubs</li>
+                  <li>Strengthing and expanding Rotary around the world</li>
+                  <li>Communicating worldwide the work of rotary and providing a system of International Administration</li>
+                </ul>
+              </div>
+      
+              <div class="parent-rotary-card">
+                <h3>Their Events</h3>
+                <img src="./images/parent-rotary/parent-rotary.png" alt="">
+                <ul>
+                  <li><strong>Sanskar-</strong> Training program for interactors and moderators</li>
+                  <li><strong>Udaan-</strong>Interact Distrcit Conference</li>
+                  <li><strong>Umang-</strong>Trekking for visually and physically challenged</li>
+                  <li>Social media integration</li>
+                </ul>
+              </div>
+            </div>
+      
+          </div>
+          
+        <!-- OUR EVENTS -->
+
+        <h4 id="OurEvents"></h4>
+            <h2>Our Events</h2>
+            <p>
+             ...
+            </p>
+
+       <!-- CONTACT US -->
+
+       <h4 id="ContactUs"></h4>
+       <h2>Contact Us</h2>
+       <p>
+        ...
+       </p>
+
+
     </div>
 
-    <div class="who-we-are">
 
-      <div class="who-we-are-heading">
-        <h2>Who we are?</h2>
-        <p>
-          Together, we see a world where people unite and take action to create lasting change — across the globe, in our communities, and in ourselves.
-        </p>
-      </div>
-
-      <div class="who-we-are-list">
-
-        <div class="who-we-are-list-item">
-          <span>
-            <img src="./images/who-we-are/1.svg" alt="">
-          </span>
-          <h3>People Of Action</h3>
-          <p>
-            We connect passionate people with diverse perspectives to exchange ideas and above all, take action to change the world.
-          </p>
-        </div>
-
-        <div class="who-we-are-list-item">
-          <span>
-            <img src="./images/who-we-are/2.svg" alt="">
-          </span>
-          <h3>Community Builders</h3>
-          <p>
-            We collaborate with leaders and organisations who want to get to work on projects that have a real, lasting impact on people’s lives.
-          </p>
-        </div>
-
-        <div class="who-we-are-list-item">
-          <span>
-            <img src="./images/who-we-are/3.svg" alt="">
-
-          </span>
-          <h3>Problem Solvers</h3>
-          <p>
-            Together, we apply our professional experience and personal commitment to tackle our communities’ most persistent problems, finding new, effective ways to enhance health, stability, and prosperity across the globe..
-          </p>
-        </div>
-
-        <div class="who-we-are-list-item">
-          <span>
-            <img src="./images/who-we-are/4.svg" alt="">
-          </span>
-          <h3>Opportunity Creators</h3>
-          <p>
-            We create opportunity for people who want to give it back to the society or looking for investing in our communities today for a better tomorrow
-          </p>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="stats">
-      <div class="start-stat">
-        <h2>2012</h2>
-        <h3>Since We Started</h3>
-      </div>
-      <div class="vool-stat">
-        <h2>5000</h2>
-        <h3>Number Of Volunteers</h3>
-      </div>
-    </div>
-
-    <!-- THE TEAM -->
-    <div class="team">
-      <h2>Meet Our Team</h2>
-      <p>
-        With the guidance of our parent rotary the new elected team of RC SPIT are on a mission to enable the community to advance world understanding, goodwill, and peace through the improvement of health, the support of education, and the alleviation of poverty.
-      </p>
-      <div class="team-container">
-        <div class="team-card">
-          <img src="./images/team/rathodsir-compressed.jpg" alt="">
-          <h3 class="team-card-name">Dr S S Rathod</h3>
-          <h4 class="team-card-position">Club Mentor</h4>
-        </div>
-
-        <div class="team-card">
-          <img src="./images/team/Yash.jpeg" alt="">
-          <h3 class="team-card-name">Rtr. Yash Jain</h3>
-          <h4 class="team-card-position">President</h4>
-        </div>
-
-        <div class="team-card">
-          <img src="./images/team/Divija1.jpeg" alt="">
-          <h3 class="team-card-name">Rtr. Divija Shringarapure</h3>
-          <h4 class="team-card-position">Vice President</h4>
-        </div>
-
-        <div class="team-card">
-          <img src="./images/team/atharvafinal.jpg" alt="">
-          <h3 class="team-card-name">Rtr. Atharva Malhar</h3>
-          <h4 class="team-card-position">IPP</h4>
-        </div>
-      </div>
-    </div>
-
-    <div class="parent-rotary">
-      <h2>Our Parent Rotary</h2>
-      <div class="parent-rotary-container">
-
-        <div class="parent-rotary-card">
-          <h3>Who are they</h3>
-          <img src="./images/parent-rotary/parent-rotary.png" alt="">
-          <ul>
-            <li>They belong to the district 3141 and called our parent rotary</li>
-            <li>Chartered on Dec.22,1999</li>
-            <li>Over 20 core members</li>
-            <li>A parent club to more than 10 different clubs</li>
-            <li>Driven by the goal of uplifitng the community</li>
-          </ul>
-        </div>
-
-        <div class="parent-rotary-card">
-          <h3>Their Mission</h3>
-          <img src="./images/parent-rotary/parent-rotary.png" alt="">
-          <ul>
-            <li>Support the member clubs in fulfillin gthe Object of rotary by fostering unity amongest member clubs</li>
-            <li>Strengthing and expanding Rotary around the world</li>
-            <li>Communicating worldwide the work of rotary and providing a system of International Administration</li>
-          </ul>
-        </div>
-
-        <div class="parent-rotary-card">
-          <h3>Their Events</h3>
-          <img src="./images/parent-rotary/parent-rotary.png" alt="">
-          <ul>
-            <li><strong>Sanskar-</strong> Training program for interactors and moderators</li>
-            <li><strong>Udaan-</strong>Interact Distrcit Conference</li>
-            <li><strong>Umang-</strong>Trekking for visually and physically challenged</li>
-            <li>Social media integration</li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- OUR EVENTS -->
-    <div class="our-events">
-
-    </div>
-
-    <!-- CONTACT US -->
-    <div class="contact-us">
-
-    </div>
   </main>
 
   <!-- FOOTER FOR CONTACT INFORMATION -->
