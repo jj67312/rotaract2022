@@ -1,0 +1,31 @@
+.our-events {
+  padding: 5% 10%;
+  background-color: #fafafa;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.event-card {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-images img{
+  height: 300px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.event-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.event-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
