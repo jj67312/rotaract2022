@@ -34,29 +34,22 @@ nav {
 
 .nav-items {
   margin-inline-end: 5%;
-}
-
-.nav-items ul {
   display: flex;
   flex-direction: row;
-  font-size: 80%;
 }
 
-.nav-items ul li {
+.nav-items a{
+  color: black;
+  padding: 5px 10px;
   margin-right: 10px;
-  border-radius: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  width: max-content;
 }
 
-.nav-items ul li:hover {
+.nav-items a:hover{
   color: white;
   background-image: var(--clr-theme-primary);
-  transition: 0.25s;
-  cursor: pointer;
+  /* transition: 0.15s ease-in; */
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 /* CHANGE NAV AT WIDTH 763px */
