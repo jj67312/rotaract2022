@@ -34,12 +34,13 @@
   <link rel="stylesheet" href="./stylesheets/our-events.css">
   <link rel="stylesheet" href="./stylesheets/flag-ship-events.css">
   <link rel="stylesheet" href="./stylesheets/footer.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
 
   <!-- NAVIGATION BAR -->
-  <nav id="navbar1">
+  <nav id="navbar1" data-aos="menu-area" data-aos-anchor-placement="top-center" >
     <div class="nav-logo">
       <img src="./images/logo-removebg.png" alt="">
       <h3>Rotaract Club S.P.I.T</h3>
@@ -55,8 +56,8 @@
   <!-- MAIN CONTENT OF THE WEB PAGE -->
   <main>
     <div data-bs-spy="scroll" data-bs-target="#navbar1" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
-      <h4 id="AboutUs">About US</h4>
-      <div class="about-us">
+
+      <div data-aos="fade-up" id="AboutUs" class="about-us">
         <div class="about-us-text">
           <h2>About Us</h2>
           <p>
@@ -67,7 +68,8 @@
           <img src="./images/logo-removebg.png" alt="">
         </div>
       </div>
-      <div class="who-we-are">
+
+      <div data-aos="fade-up" class="who-we-are">
 
         <div class="who-we-are-heading">
           <h2>Who we are?</h2>
@@ -122,9 +124,9 @@
         </div>
       </div>
 
-      <div class="stats">
+      <div data-aos="fade-up" class="stats">
         <div class="start-stat">
-          <h2>2012</h2>
+          <h2 class="add-text-color">2012</h2>
           <h3>Since We Started</h3>
         </div>
         <div class="vool-stat">
@@ -137,7 +139,7 @@
       <!-- THE TEAM -->
 
       <!-- <h4 id="OurTeam"></h4> -->
-      <div id="OurTeam" class="team">
+      <div data-aos="fade-up" id="OurTeam" class="team">
         <h2>Meet Our Team</h2>
         <p>
           With the guidance of our parent rotary the new elected team of RC SPIT are on a mission to enable the community to advance world understanding, goodwill, and peace through the improvement of health, the support of education, and the alleviation of poverty.
@@ -170,7 +172,7 @@
       </div>
 
       <!-- Parent Rotary -->
-      <div class="parent-rotary">
+      <div data-aos="fade-up" class="parent-rotary">
         <h2>Our Parent Rotary</h2>
         <div class="parent-rotary-container">
 
@@ -211,7 +213,7 @@
       </div>
 
       <!-- PAST LEADERS -->
-      <div class="past-leaders">
+      <div data-aos="fade-up" class="past-leaders">
         <h2>What our past leaders say</h2>
 
         <div class="past-leaders-container">
@@ -256,7 +258,7 @@
       </div>
 
       <!-- OUR EVENTS -->
-      <div id="OurEvents" class="our-events">
+      <div data-aos="fade-up" id="OurEvents" class="our-events">
         <h2>Check Out Our Events</h2>
 
         <div class="event-container">
@@ -305,7 +307,7 @@
 
       </div>
 
-      <div class="flag-ship-events">
+      <div data-aos="fade-up" class="flag-ship-events">
         <h2>Flagship Events</h2>
 
         <div class="flag-ship-container">
@@ -387,6 +389,15 @@
   </footer>
 
   <!-- JAVASCRIPTS -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 100,
+      duration: 700,
+      mirror: true,
+    });
+  </script>
   <script src="./javascripts/app.js"></script>
 </body>
 

@@ -11,9 +11,10 @@ nav {
   /* border-bottom: 2px solid #f1f1f1; */
   background-color: white;
   overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;  
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;  
+
 }
 
 /* nav logo */
@@ -44,10 +45,13 @@ nav {
   margin-right: 10px;
 }
 
+.nav-items a:active{
+  text-decoration:solid black;
+}
+
 .nav-items a:hover{
   color: white;
   background-image: var(--clr-theme-primary);
-  /* transition: 0.15s ease-in; */
   border-radius: 20px;
   text-decoration: none;
 }

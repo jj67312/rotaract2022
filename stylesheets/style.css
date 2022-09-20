@@ -13,19 +13,12 @@ html {
   --clr-theme-primary: linear-gradient(to right, #31d167, #2cbac8);
 }
 
-main {
-  animation: slidein 0.75s;
-  transition-timing-function: ease-in;
-}
-
-@keyframes slidein {
-  from {
-    opacity: 0;
-    transform: rotateX(-10deg);
-  }
-
-  to {
-    opacity: 1;
-    transform: rotateX(0);
-  }
+.add-text-color {
+  background-image: var(--clr-theme-primary);
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
