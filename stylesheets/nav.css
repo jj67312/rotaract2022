@@ -8,12 +8,13 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 64px;
-  border-bottom: 2px solid #f1f1f1;
+  /* border-bottom: 2px solid #f1f1f1; */
   background-color: white;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;  
+
 }
 
 /* nav logo */
