@@ -13,6 +13,10 @@ html {
   --clr-theme-primary: linear-gradient(to right, #31d167, #2cbac8);
 }
 
+.container{
+  /* background-color: aqua; */
+}
+
 .add-text-color {
   background-image: var(--clr-theme-primary);
   /* Use the text as a mask for the background. */

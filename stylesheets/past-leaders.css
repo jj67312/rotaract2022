@@ -1,16 +1,17 @@
-.past-leaders{
+.past-leaders {
   background-color: #f4f5f7;
-  padding: 5% 10%;
+  padding: 40px 50px;
 }
 
-.past-leaders h2{
+.past-leaders h2 {
   margin-bottom: 20px;
 }
 
-.past-leaders-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.past-leaders-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 3fr;
+  column-gap: 30px;
   overflow: scroll;
 }
 
@@ -21,11 +22,13 @@
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .past-leaders-container {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
-.past-leaders-card{
+.past-leaders-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,8 +38,12 @@
   text-align: center;
 }
 
-.past-leaders-card img{
+.past-leaders-card p{
+  text-align: justify;
+}
+
+.past-leaders-card img {
   height: 200px;
-  width: 200px;
+  /* width: 200px; */
   border-radius: 50%;
 }

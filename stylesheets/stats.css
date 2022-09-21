@@ -3,10 +3,18 @@
 }
 
 .stats {
-  padding: 5% 10%;
+  padding: 40px 70px;
   text-align: center;
   background-color: #fafafa;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+}
+
+.stats .container{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 2fr;
+  column-gap: 20%;
+  overflow: hidden;
+}
+
+.stats .container .start-stat{
 }

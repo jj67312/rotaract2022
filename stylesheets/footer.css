@@ -3,12 +3,18 @@
 }
 
 .footer {
-  padding: 5% 10%;
+  padding: 40px 50px;
   background-color: #2d314e;
   color: #8a8ca5;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; */
+}
+
+.footer .container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: repeat(3, 100%);
 }
 
 .footer-col1 {
@@ -70,4 +76,11 @@
 
 .footer-col3 div {
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1260px) {
+  .footer .container {
+    display: grid;
+    grid-template-rows: 2fr;
+  }
 }

@@ -4,7 +4,7 @@
 }
 
 .who-we-are {
-  padding: 5% 10%;
+  padding: 40px 50px;
   background-color: #f4f5f7;
 
   display: flex;
@@ -20,6 +20,10 @@
   /* background-color: red; */
   display: flex;
   flex-direction: row;
+
+  display: grid;
+  grid-auto-flow: column;
+
 }
 
 .who-we-are-list-item {
@@ -30,11 +34,30 @@
   /* padding: 10px; */
   display: flex;
   flex-direction: column;
-  width: 25%;
+  /* width: 25%; */
   text-align: left;
 }
 
 .who-we-are-list-item span img {
   width: 50px;
   height: 50px;
+}
+
+@media screen and (max-width: 1421px) {
+  .who-we-are .container{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
+  }
+
+  .who-we-are-heading {
+    width: 100%;
+  }
+
+  .who-we-are-list {
+    /* flex-direction: column; */
+    display: grid;
+    grid-auto-flow: row;
+    width: 100%;
+  }
 }

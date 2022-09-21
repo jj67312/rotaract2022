@@ -7,12 +7,19 @@
   background-color: var(#fafafa);
   flex-direction: row;
   align-items: center;
-  padding: 5% 10%;
-  margin-block-start: 5vh;
+  padding: 40px 50px;
+  /* margin-block-start: 5vh; */
+}
+
+.about-us .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .about-us-text {
   font-size: small;
+  width: 40%;
 }
 
 .about-us-text h2 {
