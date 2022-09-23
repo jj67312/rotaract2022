@@ -8,9 +8,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 64px;
-  /* border-bottom: 2px solid #f1f1f1; */
+  border-bottom: 2px solid #f1f1f1; 
   background-color: white;
   overflow: hidden;
+  position: fixed;
+  width :100%;
   /* position: fixed !important;
   top: 0 !important;
   width: 100% !important; */
