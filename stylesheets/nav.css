@@ -11,8 +11,11 @@ nav {
   border-bottom: 2px solid #f1f1f1; 
   background-color: white;
   overflow: hidden;
-  position: fixed;
-  width :100%;
+  /* position: fixed; */
+  /* top: 0; */
+  /* animation: none; */
+  /* width :100%; */
+  /* margin-bottom: 90px; */
   /* position: fixed !important;
   top: 0 !important;
   width: 100% !important; */

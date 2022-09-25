@@ -14,7 +14,7 @@ html {
 }
 
 .container{
-  /* background-color: aqua; */
+  width: 1200px;
 }
 
 .add-text-color {
