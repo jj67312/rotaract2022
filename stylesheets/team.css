@@ -7,7 +7,7 @@
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 3fr;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -24,7 +24,7 @@
 }
 
 .team-card {
-  margin-right: 10px;
+  margin-right: 5px;
   width: 300px;
   text-align: center;
 }
@@ -40,5 +40,5 @@
 .team-card img {
   object-fit: contain;
   height: 300px;
-  /* width: 300px; */
+   width: 280px; 
 }
